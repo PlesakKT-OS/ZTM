@@ -1,0 +1,67 @@
+/* Selector{
+    Property: value;
+} */
+
+*{
+    text-align: right;
+}
+
+h2{
+    color:red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+h2 p {
+    color:red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+h2 + p {
+    color:red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(23, 49, 165);
+}
+
+body{
+    background-color: rgb(233, 69, 29);
+    background-image: url(background.jfif);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.webtext:first-child{
+    border: dashed teal;
+    text-align: center;
+}
+
+.webtext:last-child{
+    border: dashed teal;
+    text-align: center;
+}
+
+.active{
+    color: white;
+}
+
+#div1{
+    background: blue;
+}
+
+#div2{
+    background: chartreuse;
+    
+}
